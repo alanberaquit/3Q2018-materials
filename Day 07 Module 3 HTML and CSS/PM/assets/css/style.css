@@ -1,0 +1,310 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.black-container {
+	background-color: black;
+	margin: 10px auto;
+	padding: 10px;
+	width: 700px;
+}
+
+.grey-boxes1 {
+	background-color: grey;
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+}
+
+.white-container {
+	background-color: black;
+	border: 1px solid white;
+	box-sizing: content-box;
+	float: left;
+	height: 150px;
+	margin: 10px;
+	padding: 10px 10px 50px 10px;
+	width: 150px;
+}
+
+.grey-boxes {
+	background-color: grey;
+	float: left;
+	height: 100%;
+	margin-bottom: 12px;
+	width: 100%;
+}
+
+figcaption {
+	color: white;
+	text-align: center;
+}
+
+.clear:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+h2 {
+	color: white;
+	margin: 15px 0;
+}
+
+.grey3-boxes {
+	background-color: grey;
+	float: left;
+	height: 150px;
+	margin-right: 10px;
+	width: 150px;
+}
+
+p {
+	color: white;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.left {
+	/*box-sizing: content-box;*/
+	float: left;
+	width: 20%;
+}
+
+.right {
+	float: right;
+	width: 77%;
+}
+
+.grey4-boxes {
+	background-color: grey;
+	height: 150px;
+	margin-right: 10px;
+	width: 150px;
+}
+
+.grey5-boxes {
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+}
+
+textarea {
+	height: 100px;
+	width: 100%;
+}
+
+.left2 {
+	float: left;
+	width: 7%;
+}
+
+.right2 {
+	float: right;
+	width: 92%;
+}
+
+button {
+	float: right;
+	margin: 10px 0 0 10px;
+}
+
+h3 {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.left3 {
+	float: left;
+	width: 7%;
+}
+
+.right3 {
+	float: right;
+	width: 91%;
+}
+
+#replies-container {
+	margin-top: 15px;
+	padding: 0 10px;
+	border-left: 1px solid white;
+}
+
+.grey6-boxes {
+	background-color: grey;
+	height: 50px;
+	margin-right: 10px;
+	width: 50px;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.pic-replies {
+	float: left;
+	width: 7%;
+}
+
+.comment-replies {
+	float: right;
+	width: 90%;
+}
+
+a {
+	font-size: 13px;
+}
+
+.comments {
+	margin-bottom: 20px;
+}
+
+.black-container2 {
+	background-color: black;
+	margin: 10px auto;
+	padding: 10px;
+	width: 500px;
+}
+
+
+/* picture with label - left and right side */
+.grey7-boxes {
+	background-color: grey;
+	height: 100px;
+	width: 100%;
+}
+
+h4 {
+	color: white;
+}
+
+label {
+	color: grey;
+	font-size: 12px;
+}
+
+/* picture with label - left side */
+#left4 {
+	float: left;
+	width: 40%;
+}
+
+#right4 {
+	float: right;
+	width: 59%;
+}
+/* end of picture with label - left side */
+
+/* picture with label - right side */
+#left5 {
+	float: left;
+	width: 59%;
+}
+
+#right5 {
+	float: right;
+	width: 40%;
+}
+/* end of picture with label - right side */
+
+/* descripttion with grid photos */
+#left6 {
+	float: left;
+	width: 30%;
+}
+
+#right6 {
+	float: right;
+	width: 69%;
+}
+
+#btn-read {
+	float: left;
+	margin: 10px 0;
+	padding: 3px;
+}
+
+.grey8-boxes {
+	background-color: grey;
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+/* end of descripttion with grid photos */
+
+
+.black-container3 {
+	background-color: black;
+	margin: 10px auto;
+	padding: 10px;
+	width: 1000px;
+}
+
+#left7 {
+	box-sizing: content-box;
+	float: left;
+	width: 60%;
+}
+
+#right7 {
+	float: right;
+	width: 40%;
+}
+
+.white-container2 {
+	background-color: black;
+	border: 1px solid white;
+	box-sizing: content-box;
+	float: left;
+	margin: 10px;
+	padding: 5px 5px 5px 5px;
+	width: 150px;
+}
+
+.grey-container {
+	height: 100px;
+	width: 100%;
+}
+
+.grey10-boxes {
+	background-color: grey;
+	float: left;
+	height: 100%;
+	margin-top: 10px;
+	width: 100%;
+}
+
+#large-rectangle {
+	background-color: grey;
+	height: 200px;
+	width: 100%;
+}
+
+.menus {
+	margin: 10px 10px 10px 0;
+	float: left;
+}
+
+#large-rectangle-container {
+	margin-bottom: 10px;
+}
+
+#grey9-boxes {
+	background-color: grey;
+	float: left;
+	height: 100px;
+	margin-right: 5px;
+	width: 150px;
+}
+
+.captions {
+	margin: 5px 0;
+}

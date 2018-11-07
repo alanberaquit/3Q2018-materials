@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+
+header {
+	background-color: violet;
+	padding: 50px;
+}
+
+.logo {
+	font-size: 3em;
+	color: white;
+}
+
+span {
+	color: darkviolet;
+}
+
+nav {
+	position: absolute;
+	right: 50px;
+}
+
+nav > ul {
+	position: relative;
+	top: -40px;
+}
+
+nav > ul > a > li {
+	display: inline-block;
+	margin-right: 20px;
+	background-color: white;
+}
+
+main {
+	background-color: lightgrey;
+	width: 80%;
+	margin: 20px auto;
+	padding: 50px;
+}
+
+.grandparent {
+	width: 50%;
+	background-color: grey;
+	padding: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.parent {
+	background-color: white;
+	height: 100%;
+	padding: 10px;
+	position: relative;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.name {
+	background-color: violet;
+	position: absolute;
+	top: 30px;
+	left: 130px;
+	padding: 10px;
+	width: 370px;
+	text-align: center;
+	color: black;
+}
+
+.certified {
+	position: absolute;
+	bottom: -20px;
+	right: 20px;
+	background-color: salmon;
+	padding: 10px;
+}
+
+ p {
+ 	margin-bottom: 20px;
+ }
+
+ .back {
+ 	background-color: grey;
+ 	padding: 10px;
+ 	position: fixed;
+ 	bottom: 0;
+ 	right: 0;
+ 	color: white;
+ }
+
+ .back a {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+ .container {
+ 	background: url(assets/images/bg.png);
+ 	background-size: cover;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+

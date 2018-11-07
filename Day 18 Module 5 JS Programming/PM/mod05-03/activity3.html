@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Programming - Activity 3</title>
+</head>
+<body>
+	Enter a number: <input type="number" name="toCheck" id="toCheck">
+	<button onclick="checkOddEven()">Odd or Even?</button>
+	<br>
+	The number is <span id="result"></span>
+	<script type="text/javascript">
+		const checkOddEven = () => {
+			let toCheck = Number(document.getElementById('toCheck').value);
+			if (toCheck % 2 == 0){
+				document.getElementById('result').innerHTML = "<strong>Even</strong>";
+			} else {
+				document.getElementById('result').innerHTML = "<strong>Odd</strong>";
+			}
+		}
+	</script>
+</body>
+</html>

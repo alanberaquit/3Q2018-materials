@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery - Activity 2</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<h1>What can JQuery do?</h1>
+<hr>
+
+<h2 id="elements">JQuery can hide/show HTML elements</h2>
+<button onclick="hideAll()">Hide All</button>
+<button onclick="showAll()">Show All</button>
+<button onclick="toggleAll()">Toggle All</button>
+
+<div id="all">
+	<h2 id="content"  >JQuery can Change HTML content</h2>
+	<button onclick="changeContent()">Change HTML Content</button>
+
+	<h2>JQuery Can Change HTML Attributes</h2>
+	<button onclick="changeAttr()">Change image height</button>
+	<button onclick="changeImage()">Change image</button>
+	<br>
+	<img id="attr" src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/4634/s200/tuitt-coding-bootcamp-logo.png" height="230">
+
+
+	<h2 id="css">JQuery Can Change HTML Styles (CSS)</h2>
+	<button onclick="changeStyle()">Change style</button>
+
+</div>
+
+
+<script>
+const changeContent = () => {
+	$("#content").html("Hello World!");
+}
+
+const changeAttr = () => {
+	// document.getElementById("attr").height = 100;
+	$('#attr').attr("height", 100);
+}
+
+const changeImage = () => {
+	// document.getElementById("attr").src = "tuitt_logo.png";
+	$('#attr').attr("src", "https://thetravelhyped.com/uploads/tuitt.png");
+	$('#attr').attr("src", "https://thetravelhyped.com/uploads/tuitt.png");
+}
+
+const changeStyle = () => {
+	// document.getElementById("css").style.color = "#35f";
+	$('#css').css('color', "#35f")
+}
+
+const hideAll = () => {
+	// document.getElementById("all").style.display = "none"
+	$("#all").hide();
+}
+
+const showAll = () => {
+	// document.getElementById("all").style.display = "block";
+	$("#all").show();
+}
+
+const toggleAll = () => {
+	$("#all").toggle();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Programming - Activity 2</title>
+</head>
+<body>
+	<input type="number" name="year" id="year">
+	<button onclick="getYear()">Leap Year?</button>
+	<br>
+	The year is <span id = "result"></span>
+	<script type="text/javascript">
+		const getYear = () => {
+			let year = Number(document.getElementById('year').value);
+			if(year % 4 == 0){
+				if (year % 100 == 0){
+					if (year % 400 == 0){
+						document.getElementById('result').innerHTML = "a leap year";
+					} else {
+						document.getElementById('result').innerHTML = "not a leap year";
+					}
+				} else {
+					document.getElementById('result').innerHTML = "a leap year";
+				}
+			} else {
+				document.getElementById('result').innerHTML = "not a leap year";
+			}
+		}
+	</script>
+</body>
+</html>
