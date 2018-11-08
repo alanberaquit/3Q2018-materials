@@ -1,3 +1,3 @@
-# Internet and WWW Quiz 2
+# CLI and GIT Basics
 
-The student will write the result of their kahoot activity in an md file and submit it in Gitlab/Github
+The student will submit a screenshot of their activity
